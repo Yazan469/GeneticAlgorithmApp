@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نتائج المحاكاة</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">نتائج المحاكاة</h1>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">أفضل مسار</h5>
+                <p class="card-text">{{ best_path }}</p>
+            </div>
+        </div>
+        <div class="card mt-3">
+            <div class="card-body">
+                <h5 class="card-title">أقل تكلفة</h5>
+                <p class="card-text">{{ best_cost }}</p>
+            </div>
+        </div>
+         <div class="card mt-3">
+             <div class="card-body">
+                 <h5 class="card-title">وقت التنفيذ</h5>
+                 <p class="card-text">{{ execution_time }} seconds</p>
+             </div>
+         </div>
+        <a href="/" class="btn btn-secondary mt-4">الرجوع إلى الصفحة الرئيسية</a>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
