@@ -3,7 +3,7 @@ import sqlite3
 import random
 import math
 import time
-import OS 
+import os 
 
 app = Flask(__name__)
 
